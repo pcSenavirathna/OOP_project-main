@@ -1,0 +1,91 @@
+Name-B.M.P.C.Senavirathna
+Register NO- IT22219084
+induvidual Contribution
+	Home Page
+		index.jsp
+		
+	Navigation Bar and footer
+	Feedback Page
+		feedback.jsp
+		feedback_view.jsp(only can see admin profile)
+	bid page
+		biding.jsp
+	
+	*my all servlets and java files in,
+		com.BidingSystem.prasad Package
+	
+	C - Feedback create
+	R - Home page all items read, all feedback read
+	U - update bid
+	D - Feedback Delete
+		feedback delete can only admin, please sign in username(admin) and password (admin), after that go profile
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Name-P.D.D.P.Panagoda
+Register NO- IT22589118
+induvidual Contribution
+	User Profile update page
+		userUpdate.jsp
+	My Bid page
+		mybid.jsp
+	My order page
+		myOrder.jsp
+	order page
+		order.jsp
+	
+	*my all servlets and java files in,
+		com.BidingSystem.pathum Package
+	
+	C - order item(click "profile" button in navigation bar, then go my order page and click "order now" button)
+	R - user details read in user profile update page(click "profile" button in navigation bar)
+	U - user details update in user profile update page(click "profile" button in navigation bar)
+	D - delete account in profile update page(click "profile" button in navigation bar)
+		
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+Name-P.D.P.Prajeshwara
+Register NO- IT22587824
+induvidual Contribution
+	Add item page
+		itemAdd.jsp
+	View item page
+		seller-items.jsp
+		deleteItem.jsp
+		updateItem.jsp
+	contactus page	
+		contactus.jsp
+
+	*my all servlets and java files in,
+		com.BidingSystem.pubuth Package
+	
+	C - insert item, insert message(contact page)
+	R - view item 
+	U - update item
+	D - delete item
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Name-M.A.R.C.Mathara Arachchi
+Register NO- IT22590176
+induvidual Contribution
+	SignUp page
+		Reg.jsp
+	Login page
+		Log.jsp
+	Admin Page
+		admin.jsp(login admin and go profile)
+		update_recode.jsp
+		view_record.jsp
+		
+	*my all servlets and java files in,
+		com.BidingSystem.Ruvindi Package
+	
+	C - Register users
+	R - read all user details(only can see admin profile)
+	U - update all user details(only can see admin profile)
+	D - delete users(only can see admin profile)
+		These can be seen only admin, please sign in username(admin) and password (admin), after that go profile
+

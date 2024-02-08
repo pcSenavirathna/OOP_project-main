@@ -1,0 +1,78 @@
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	color: #333;
+	margin: 0;
+}
+
+.search-bar {
+	margin: 20px 0;
+	text-align: center;
+}
+
+#search-input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 300px;
+}
+
+#search-button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+#search-button:hover {
+	background-color: #0056b3;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width:20%;
+	margin: 10px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	text-align: center;
+}
+
+/* Card title style */
+.card-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/* Card content style */
+.card-content {
+	font-size: 1rem;
+}
+
+.bid-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration:none;
+}
+
+.bid-button:hover {
+  background-color: #0056b3;
+  color: white;
+}

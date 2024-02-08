@@ -1,0 +1,207 @@
+@charset "ISO-8859-1";
+/* Style the Admin Dashboard title */
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+*
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+}
+
+body{
+	height:100vh;
+	background-color:black;
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/r7.jpeg');
+	background-opacity: 0.5;
+	background-size:cover;
+	background-position:center;	
+}
+
+.rectangle {
+  height: 60px;
+  width: auto;
+  background: rgba(0, 0, 0, 0.5);
+ }	
+
+li{
+	list-style: none;	
+}	
+
+a{
+	text-decoration:none;
+	color:white;
+	font-size: 1rem;
+}	
+
+a:hover{
+	color:orange;
+}	
+
+
+/*---------------------------*/
+.boxes{
+	display: inline-block;
+}
+
+.boxes .box1{
+  background-color:rgba(32,51,79,0.93);
+  position: fixed;
+  margin-left:24%;
+  margin-top:2%;
+  width: 300px;
+  height:400px;
+  border-radius:30px;
+  box-shadow: 0px 0px 50px 15px grey;
+  transition: transform .2s;
+}
+
+.boxes .box1:hover{  
+  transform: scale(1.05); 
+}
+
+.boxes .box2:hover{
+  transform: scale(1.05); 
+}
+
+.boxes .box1 .chutibox1{
+	background-color:rgba(7,3,26,0.9);
+  position: absolute;
+  width: 300px;
+  height:60px;
+  border-radius:30px; 
+}
+
+.boxes .box1 .chutibox1 h3{
+	color:white;
+	padding-top:15px;
+	padding-left:65px;
+}
+
+.boxes .box1 .chutiimage {
+	margin-top:25%;
+	margin-left:10%;
+	
+}
+
+.boxes .box1 .button {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: white;
+  border: black;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.boxes .box1 .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.boxes .box1 .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.boxes .box1 .button:hover span {
+  padding-right: 25px;
+}
+
+.boxes .box1 .button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*---------------------*/
+
+.boxes .box2{
+  background-color:rgba(32,51,79,0.93);
+  position: fixed;
+  margin-left:54%;
+  margin-top:2%;
+  width: 300px;
+  height:400px;
+  border-radius:30px;
+  box-shadow: 0px 0px 50px 15px grey;
+  transition: transform .2s;
+}
+
+.boxes .box2 .chutibox2{
+	background-color:rgba(7,3,26,0.9);
+  position: absolute;
+  width: 300px;
+  height:60px;
+  border-radius:30px; 
+}
+
+.boxes .box2 .chutibox2 h3{
+	color:white;
+	padding-top:15px;
+	padding-left:38%;
+}
+	
+.boxes .box2 .chutiimage2 {
+	margin-top:25%;
+	margin-left:10%;
+	
+}	
+	
+
+.boxes .box2 .button2 {
+  display: inline-block;
+  border-radius: 25px;
+  background-color: white;
+  border: black;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.boxes .box2 .button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.boxes .box2 .button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.boxes .box2 .button2:hover span {
+  padding-right: 25px;
+}
+
+.boxes .box2 .button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}

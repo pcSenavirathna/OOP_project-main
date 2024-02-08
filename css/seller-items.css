@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	background-color: #333;
+	color: white;
+	padding: 20px 0;
+	margin: 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	background-color: white;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #333;
+	color: white;
+}
+
+th.action-header {
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.action-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.button-container {
+	display: flex;
+	align-items: center;
+}
+
+button {
+	padding: 8px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+button.update {
+	background-color: #007bff;
+	color: white;
+}
+
+button.delete {
+	background-color: #dc3545;
+	color: white;
+}
+
+img {
+	max-width: 100px;
+	height: auto;
+	border: 1px solid #ddd;
+}

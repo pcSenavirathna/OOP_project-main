@@ -1,0 +1,75 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-color: rgb(207, 207, 207);
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	text-align: left;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+input[type="submit"] {
+	width: 100%;
+	background-color: #007BFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+.feedback-card {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: rgb(225, 231, 29);
+	
+}
+
+.feedback-card h2 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.feedback-card p {
+	margin: 10px 0;
+}
+
+.feedback-card strong {
+	font-weight: bold;
+}
