@@ -1,0 +1,82 @@
+CREATE TABLE users(
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY
+  funame VARCHAR(45) NULL,
+  luname VARCHAR(45) NULL,
+  upwd VARCHAR(45) NULL,
+  uemail VARCHAR(45) NULL,
+  umobile VARCHAR(45) NULL
+  );
+
+CREATE TABLE order (
+  orderid INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  cusid INT NULL,
+  itemid INT NULL,
+  itemname VARCHAR(45) NULL,
+  price DOUBLE NULL
+  );
+
+
+CREATE TABLE message (
+  messageid INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  firstName VARCHAR(45) NULL,
+  lastName VARCHAR(45) NULL,
+  email VARCHAR(45) NULL,
+  phone INT NULL,
+  message VARCHAR(1000) NULL
+  );
+
+CREATE TABLE iteminf (
+  item_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  itemName VARCHAR(45) NULL,
+  itemDescript VARCHAR(5000) NULL,
+  itemType VARCHAR(45) NULL,
+  startBid DOUBLE NULL,
+  endDate DATETIME NULL,
+  itemCondition VARCHAR(45) NULL,
+  rePrice DOUBLE NULL,
+  image VARCHAR(45) NULL,
+  cusId VARCHAR(45) NULL
+  );
+
+CREATE TABLE feedback (
+  id INT NULL,
+  cusName VARCHAR(45) NULL,
+  cusEmail VARCHAR(45) NULL,
+  cusFeedback VARCHAR(150) NULL
+  );
+
+
+CREATE TABLE cus_address (
+  adID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  Name VARCHAR(45) NULL,
+  phone INT NULL,
+  address VARCHAR(45) NULL,
+  city VARCHAR(45) NULL,
+  state VARCHAR(45) NULL,
+  zip_code INT NULL
+  );
+  
+
+CREATE TABLE carddetails(
+  cardID INT NOT NULL PRIMARY KEY,
+  cardNum VARCHAR(45) NULL,
+  cardName VARCHAR(45) NULL,
+  expMonth VARCHAR(45) NULL,
+  expYear VARCHAR(45) NULL,
+  cvv VARCHAR(45) NULL,
+  );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
